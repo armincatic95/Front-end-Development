@@ -1,27 +1,16 @@
 body {
-  width: 960 px;
-  margin: 20px auto;
-  
-}
-nav {
-  padding: 16px 0px 16px 0 px;
-  border-bottom: solid 1px;
-  border-top: solit 1px;
-      }
-
-section {
-  display: inline-block;  
-  width: 592px ;
-  padding: 0 8px 0 0;
+  width: 960px;
+  height: auto; 
 }
 
-      aside {
-
-        display: inline-block;
-        width: 352px;
-        padding: 0 0 0 8px
-      }
-
-      .slika {
-        width: auto
-      }
+.nav  { 
+width: 200px;
+float: left;
+height: 900px;
+text-align: left;
+border-right: 1px black;   
+}
+.sad {
+width: 700px;
+float: left;
+}
