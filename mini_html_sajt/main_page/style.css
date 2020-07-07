@@ -1,16 +1,9 @@
-body {
-  width: 960px;
-  height: auto; 
-}
 
-.nav  { 
-width: 200px;
-float: left;
-height: 900px;
-text-align: left;
-border-right: 1px black;   
-}
-.sad {
-width: 700px;
-float: left;
+
+
+h1 {font-family:Verdana;
+font-style: italic, bold;}
+
+p { font-family: monospace;
+
 }
