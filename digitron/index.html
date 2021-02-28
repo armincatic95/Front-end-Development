@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+        <title>Moj digitron</title>
+
+        <style>
+ 
+
+            p {
+                color: rgb(9, 0, 128);
+                text-align: center;
+                font-size: 60px;
+                border: solid 1px;
+                border-color: rgb(128, 128, 128);
+                margin: 20px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <script>
+
+            var prviBroj = prompt("Unesi prvi broj");
+            var operacija = prompt('Unesi aritmeticku operaciju "+ - * ili /"');
+            var drugiBroj = prompt("Unesi drugi broj");
+
+            switch(operacija){
+            case "+" :
+            document.write('<p>Zbir unesena dva broja je: ' + ((parseInt(prviBroj) + parseInt(drugiBroj)))); "</p>"  
+            break; 
+            case "-" :
+            document.write("<p>Razlika unesena dva broja je: " + ((parseInt(prviBroj) - parseInt(drugiBroj)))); "</p>"
+            break;
+            case "*" :
+            document.write("<p>Proizvod dva unesena broja je: " + ((parseInt(prviBroj) * parseInt(drugiBroj)))); "</p>"  
+            break;
+            case "/" :
+            document.write("<p>Kolicnik dva unesena broja je: " + ((parseInt(prviBroj) / parseInt(drugiBroj)))); "</p>"
+            break;
+            default : alert("Operacija mora biti +-*/");
+            }
+
+           
+        
+
+        </script>
+    </body>
+
+
